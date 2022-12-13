@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ADD8E6;
+  background-size: 400% 400%;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  overflow-x: hidden;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.border_article {
+padding: 2rem;
+margin-right:2.0rem;
+}
+.brand-color,
+.navbar-brand {
+  font-size: 2rem;
+  transition: 1s;
+  color: #23a6d5;
+}
+.container {
+  margin-left: 4px;
+}
+
+.navbar-brand:hover,
+.brand-color:hover {
+  color: #00d2ff;
+  /* transform: scale(1.06); */
+}
+
+.nav-item {
+  margin-top:8px;;
+}
+.login-color:hover {
+  color: #0d6efd;
+}
+.sign-up-color:hover {
+  color: #2196f3;
+}
+
+.home-link:hover,
+.publish-link:hover {
+  letter-spacing: 0.4px;
+}
+
+.logout-color {
+  color: #b23b3b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  margin-top : 10px;
+  width: 100%;
+  height: 100%;
+}
+.dropdown-btn {
+  background: none;
+  color: black;
+  border: none;
+}
+.dropdown-btn:focus,
+.dropdown-btn:hover {
+  background: none;
+  color: black;
+  border: none;
+}
+.show > .btn-success.dropdown-toggle {
+  background: none;
+  color: black;
+  border: none;
+}
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.collapse:not(.show) {
+  display: inline-block;
+}
+.navbar-collapse {
+  position: absolute;
+  top: 8px;
+  left: 200px;
+}
+.login-link,
+.home-link {
+  margin-left: 50px;
+  /* top: 10px; */
+  position: relative;
+}
+.sign-up-link,
+.publish-link {
+  position: fixed;
+  left: 330px;
+  /* top: 18px; */
+}
+.logout-link {
+  position: fixed;
+  right: 20px;
+  /* top: 18px; */
+}
+.auth-wrapper {
+  margin-top: 60px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 75%;
+  margin: 30px auto 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+.forgot-password a {
+  color: #167bff;
+}
+.loading-div{
+  width: fit-content;
+    margin: auto;
+    margin-top: 20%;
+}
+.loading{
+  position: relative;
+  bottom: 11px;
+  font-size: 25px;
+  left: 10px;
+}
+.login-div {
+  margin-top: 100px;
+  width: 450px;
+}
+.signup-div{
+  width: 500px;
+  margin-top: 100px;
+}
+.add-journal-div{
+  width: 35%;
+  margin-top: 100px;
+}
+.navbar-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.search-bar{
+  position: fixed;
+    z-index: 2000;
+    left: 30%;
+    width: 40%;
+    top: 10px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid;
+}
+.search-submit-btn{
+  z-index: 2000;
+  position: fixed;
+  top: 14px;
+  left: 67.5%;
+  border: none;
+  background: white;
+}
+@media only screen and (max-width: 600px) {
+  .card-title {
+    font-size: 10px;
+  }
+  .card-img-top {
+    height: 160px;
+    width: 160px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  .card-img-top {
+    height: 100px;
+    width: 134px;
+  }
+}
+
+/* .dropdown-item:first-child{
+  display: none;
+}*/
+
+/* .dropdown-item:nth-child(2){
+  display: none;
+}*/
+
+@media only screen and (max-width: 580px) {
+  /* .dropdown-item:first-child{
+    display: block;
+  } */
+
+  /* .dropdown-item:nth-child(2){
+    display: block;
+  } */
+  .desktop {
+    display: none;
+  }
+}

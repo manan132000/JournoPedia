@@ -1,0 +1,112 @@
+.search-article-div{
+    padding: 20px 30px;
+    width: 80%;
+    margin: -10px auto;
+    background-color: white;
+    min-height: 100%;
+}
+.search-article-heading{
+    margin: 30px 55px;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+.filter-div{
+    width: 30%;
+    padding: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.to-date-input{
+    /* margin-left: 19px; */
+    padding: 5px;
+    display: inline-block;
+    width: 60%;
+    margin-left: 50px;
+}
+.from-date-input{
+    padding: 5px;
+    display: inline-block;
+    width: 60%;
+    margin-left: 30px;
+}
+.time-heading{
+    margin-bottom: 6px;
+}
+.filter-input{
+    padding: 4px;
+}
+.filter-label{
+    padding: 4px;
+}
+.date-div{
+    position: relative;
+    top: 1px;
+}
+.article-type-div{
+    position: relative;
+    top: -1px;
+}
+.filter-article-div{
+    /* margin-left: 40px; */
+    left:8%;
+    position: relative;
+}
+.filter-search-btn-div{
+    position: relative;
+}
+.filter-search-btn{
+    position: absolute;
+    right: 45%;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    width: 15%;
+    border-radius: 10px;
+    background: #33c2ef;
+    color: white;
+}
+.filter-search-btn:hover{
+    background: #23a6d5;
+}
+
+.filter-journal-div {
+    /* justify-content: center; */
+    position: relative;
+    left: 8%;
+    width: 80%;
+    top: 15px;
+}
+
+.checkbox-input{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+.no-journal-error{
+    width: fit-content;
+    margin: 20px auto 0;
+    color: red;
+}
+
+.found-articles-div{
+    margin: 100px 90px;
+    display: flex;
+}
+.not-found-articles-div{
+    margin: 150px 455px;
+    display: inline-block;
+    font-size: 1.1rem;
+    background-color: #ff8282;
+    padding: 10px 20px; 
+    border-radius: 20px;
+}
+.found-article-name{
+    cursor: pointer;
+    margin:2rem;
+    background-color: #add8e6;
+    border-radius: 0.4rem;
+    padding:0.4rem 1rem;;
+}

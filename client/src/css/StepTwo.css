@@ -1,0 +1,14 @@
+/* .Dropdown-root {
+    display: inline-block;
+    min-width: 25%;
+    width: 100%;
+    position: relative;
+    margin-left: 10px;
+} */
+
+.Dropdown-control {
+    /* position: static; */
+    width: 98%;
+    border-radius: 8px;
+    /* height: 38px; */
+}

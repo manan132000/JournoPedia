@@ -1,0 +1,52 @@
+.home-div {
+  padding: 0 10px 15px;
+}
+.home-spinner {
+  padding: 10px;
+  margin: 20% 50%;
+}
+.card-div {
+  margin: auto;
+  width: fit-content;
+}
+.card {
+  width: fit-content;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.06);
+  z-index: 2;
+  color: black;
+  /* background-color: #23a6d5; */
+}
+.card-link {
+  text-decoration: none;
+  color: var(--bs-navbar-brand-color);
+}
+.card-img-top {
+  height: 180px;
+  width: 250px;
+  margin: auto;
+  padding: 5px;
+}
+.card-body {
+  text-align: center;
+}
+.card-title {
+  text-decoration: none;
+}
+/* .zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+} */

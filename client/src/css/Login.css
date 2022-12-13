@@ -1,0 +1,18 @@
+.error-message {
+  width: fit-content;
+  margin: 10px auto 0;
+  color: red;
+}
+
+.login-btn {
+  margin-top: 15px;
+}
+
+.forgot-password-field{
+  margin: 10px 0 20px;
+}
+.password-sent-message{
+  width: fit-content;
+  margin: 20px auto 0;
+  color: green;
+}

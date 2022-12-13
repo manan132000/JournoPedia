@@ -1,0 +1,53 @@
+.add-article-div{
+    padding: 20px 30px;
+        width: 80%;
+        margin: -10px auto;
+        background-color: white;
+        min-height: 100vh;
+}
+.add-article-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.go2441762052{
+    width: fit-content;
+        margin: auto;
+}
+.guidelines-div{
+    width: 80%;
+        margin: 50px auto;
+}
+.step-div{
+    margin: 30px;
+}
+.reviewer-heading{
+    display: block;
+        border-bottom: 1px solid;
+}
+.add-reviewer-form{
+    width: fit-content;
+}
+.reviewer-div{
+    margin: 20px 10px;
+}
+.reviewer-input{
+    display: inline-block;
+        width: 29.94%;
+        margin: 10px 15px;
+}
+.reviewer-name{
+    margin-left: 0;
+}
+.add-author-btn{
+    background-color: #33c2ef;
+    border: none;
+    margin: auto;
+    display: inherit;
+}
+.final-submit-btn{
+    position: absolute;
+    right: 20%;
+    background-color: #33c2ef;
+    border: none;
+    padding: 8px 45px;
+}

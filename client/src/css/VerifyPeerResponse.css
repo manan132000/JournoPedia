@@ -1,0 +1,18 @@
+.peer-review-status {
+    width:300px;
+}
+
+.btn-div {
+    width: 50%;
+    display: inline-block;
+}
+
+.peer-dropdown {
+    width: 50%;
+    display: inline-block;
+}
+
+.peer-div {
+    width:100%;
+}
+

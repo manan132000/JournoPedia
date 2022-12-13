@@ -1,0 +1,106 @@
+.status-div{
+    padding: 20px 30px;
+        width: 80%;
+        margin: -10px auto;
+        background-color: white;
+        min-height: 100vh;
+}
+.article-status-div{
+    margin-left: 50px;
+    margin-bottom: 20px;
+        padding: 20px;
+    /* background: #ADD8E6; */
+    border: 1px solid;
+
+    border-radius: 10px;
+}
+.article-heading{
+    display: inline-block;
+    margin-top: 30px;
+}
+.review-artcile-journal-div{
+    color: darkgrey;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.progress-div{
+    margin: 15px;
+    width: 90%;
+}
+.milestone-circle{
+    background: green;
+    border-radius: 50%;
+    width: 28px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+.milestone-circle-cross{
+    color: red;
+    border-radius: 50%;
+    font-size: 28px;
+    display: inline-block;
+}
+.withdrawn-span{
+    position: relative;
+    bottom: 4px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 1.05rem;
+}
+
+.milestone-circle-incomplete{
+    border-radius: 50%;
+    width: 30px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    border: 4px solid #C5C5C5;
+    color: white;
+    text-align: center;
+}
+.progress-bar-labels-div{
+    margin-top: 20px;
+}
+.progress-bar-label{
+    display: inline-block;
+    width: 20%;
+}
+.center-text{
+    text-align: center;
+}
+.right-text{
+    text-align: right;
+}
+.shift-right{
+    position: relative;
+    left: 20px;
+}
+
+.article-status-buttons {
+    position: relative;
+    right:20;
+    text-align: end;
+    font-size: 15px;
+    text-decoration: underline;
+    opacity: 0.8;
+    bottom: 2px;
+}
+.article-status-buttons:hover{
+    color: black;
+    opacity: 1;
+}
+.status-btn-div{
+    display: inline-block;
+    margin-left: 40px;
+}
+.slight-right{
+    position: relative;
+    left: 40px;
+}
+
+.accepted-right{
+    position: relative;
+    left: 80px;
+}

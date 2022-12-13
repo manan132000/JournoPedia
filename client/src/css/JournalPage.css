@@ -1,0 +1,86 @@
+.journal-page-div {
+  padding: 25px 60px;
+    width: 80%;
+    margin: -10px auto;
+    background-color: white;
+    min-height: 100vh;
+}
+.journal-details{
+  padding: 20px;
+}
+.journal-info-div {
+  margin: 20px;
+  border-bottom: 1px solid;
+}
+.journal-img-div{
+  display: inline-block;
+      position: relative;
+    bottom: 24px;
+}
+.journal-img {
+  height: 200px;
+  width: 240px;
+}
+.editor-in-chief-div{
+  display: inline-block;
+    margin-left: 40px;
+}
+.synopsis-div{
+  margin-top: 25px;
+}
+.synopsis{
+  font-size: 18px;
+}
+.tabs{
+  margin-top: 40px;
+    background: #f7f7f7;
+    border-radius: 8px;
+}
+.editorial-board-div{
+  margin: 30px 10px;
+}
+.journal-submission-guidelines-div{
+  margin: 30px 10px;
+}
+.journal-submission-guidelines-div li{
+  margin-bottom: 10px;
+}
+
+.volume-links-div{
+  margin-left: 15px;
+}
+.add-members-btn{
+  font-size: 16px;
+    border: none;
+    padding: 5px;
+    position: relative;
+    bottom: 2px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.add-members-btn:hover{
+  background-color: lightgray;
+}
+.entered-email{
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 2px 8px;
+  background: #F0F0F0;
+  border-radius: 10px;
+}
+.add-editor-btn{
+  border: 1px solid;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: white;
+}
+.add-editor-btn:hover{
+  background: gray;
+  color: white;
+}
+.add-editor-response-msg{
+    width: fit-content;
+    margin: 10px auto 0;
+}

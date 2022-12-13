@@ -1,0 +1,21 @@
+.volumes-div{
+   padding: 20px 30px;
+    width: 80%;
+    margin: -10px auto;
+    background-color: white;
+    min-height: 100vh;
+}
+.volume-articles-div{
+    margin-left: 60px;
+}
+.border_article{
+  margin-top:2rem;
+  transition:0.4s;
+  background-color: #add8e6;
+  border-radius: 0.4rem;
+  opacity: 0.8;
+}
+.border_article:hover{
+  box-shadow: 10px;
+  opacity: 1;
+}

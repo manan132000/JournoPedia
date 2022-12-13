@@ -1,0 +1,18 @@
+.add-peer-response-div{
+    padding: 20px 30px;
+    width: 80%;
+    margin: -10px auto;
+    background-color: white;
+    min-height: 100%;
+}
+.peer-response-submit-btn{
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 40px;
+}
+.peer-response-input{
+    width: 40%;
+    display: inline-block;
+}

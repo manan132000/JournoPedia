@@ -1,0 +1,20 @@
+.edit-modal {
+    font-size: 14px;
+    height: 650px;
+}
+.modal-dialog{
+    margin-top: 50px;
+}
+.modal-body{
+    padding: 20px;
+}
+.loading-edit-div{
+    padding: 100px 20px 200px;
+}
+.change-pass-div{
+    color: blue;
+}
+.change-pass-div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

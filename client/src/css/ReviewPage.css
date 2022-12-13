@@ -1,0 +1,71 @@
+.review-page-div{
+  padding: 20px 30px;
+    width: 80%;
+    margin: -10px auto;
+    background-color: white;
+    min-height: 100vh;
+}
+.review-article-heading{
+  margin: 30px 55px;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 1px solid;
+}
+.articles-table{
+  width: 100%;
+}
+.td-1{
+  width: 40%;
+  /* padding-left: 60px; */
+  padding: 15px 60px;
+}
+.td-2{
+  width: 60%;
+  margin-left: 10px;
+}
+.download-btn,
+.submit-btn {
+  margin-left: 40px;
+  border: none;
+  padding: 5px 10px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 6px;
+}
+.download-btn{
+  margin-top : 2rem;
+  margin-left: 0;
+  background-color: #16a516;
+  color:white;
+  margin-right: 1rem;
+}
+
+.download-btn:hover {
+  opacity: 0.7;
+}
+.submit-btn:hover {
+  background-color: #00D100;
+  color: white;
+}
+.review-dropdown {
+  width: 35%;
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  top: 6px;
+}
+.article-heading {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 12px;
+}
+.article-heading-journal-name{
+  color: darkgrey;
+  font-size: 15px;
+}
+.no-articles-pic{
+  width: 50%;
+  margin: 50px 300px;
+}
